@@ -1,0 +1,304 @@
+body{
+    min-height: 100vh;  
+    display: grid;
+    grid-template-columns: repeat(24,25px);
+    grid-template-rows: repeat(26,25px);
+    place-content: center; 
+    gap: 0vh;
+}
+div{
+    background-color: rgb(255, 255, 255);
+    border: thin solid rgb(255, 255, 255);
+}
+
+.blok1{
+    grid-column: 3/4;
+    grid-row: 11/12;
+    background-color: red;
+}
+.blok2{
+    grid-column: 4/5;
+    grid-row: 11/12   ;
+    background-color: red;
+
+}
+.blok3{
+    grid-column: 4/5;
+    grid-row: 14/15 ;
+    background-color: red;
+
+}
+.blok4{
+    grid-column: 5/6;
+    grid-row: 11/12  ;
+    background-color:red;
+
+}
+.blok5{
+    grid-column: 6/7;
+    grid-row: 11/12 ;
+    background-color:red;
+
+}
+.blok6{
+    grid-column: 7/8;
+    grid-row: 11/12 ;
+    background-color: red;
+
+}
+.blok7{
+    grid-column: 8/9;
+    grid-row: 11/12   ;
+    background-Color: red;
+
+}
+.blok8{
+    grid-column: 4/5;
+    grid-row: 12/13  ;
+    background-color:red;
+
+}
+.blok9{
+    grid-column: 4/5;
+    grid-row: 13/14 ;
+    background-color: red;
+
+}
+.blok10{
+    grid-column: 8/9;
+    grid-row: 12/13 ;
+    background-color:red;
+}
+
+.blok11{
+    grid-column: 8/9;
+    grid-row: 13/14;
+    background-color:red;
+}
+
+.blok12{
+    grid-column: 8/9;
+    grid-row: 14/15 ;
+    background-color:red;
+}
+
+.blok13{
+    grid-column: 4/5;
+    grid-row: 15/16 ;
+    background-color: red;
+}
+
+
+.blok14{
+    grid-column: 8/9;
+    grid-row: 15/16 ;
+    background-color: red;
+}
+
+
+.blok14{
+    grid-column: 4/5;
+    grid-row: 16/17 ;
+    background-color: red;
+}
+.blok15{
+    grid-column: 8/9;
+    grid-row: 15/16 ;
+    background-color:red;
+}
+.blok16{
+    grid-column: 8/9;
+    grid-row: 16/17 ;
+    background-color: red;
+}
+.blok17{
+    grid-column: 3/4;
+    grid-row: 17/18 ;
+    background-color: red;
+}
+.blok18{
+    grid-column: 4/5;
+    grid-row: 17/18 ; 
+    background-color: red;
+}
+.blok19{
+    grid-column: 8/9;
+    grid-row: 17/18 ;
+    background-color:red;
+}
+.blok20{
+    grid-column: 7/8;
+    grid-row: 17/18 ;
+    background-color: red;
+}
+.blok21{
+    grid-column: 5/6;
+    grid-row: 17/18 ;
+    background-color: red;
+}
+.blok22{
+    grid-column: 6/7;
+    grid-row: 17/18 ;
+    background-color: red;
+}
+.blok23{
+    grid-column: 5/6;
+    grid-row: 14/15 ;
+    background-color:red;
+}
+.blok24{
+    grid-column: 6/7;
+    grid-row: 14/15 ;
+    background-color: red;
+}
+.blok25{
+    grid-column: 7/8;
+    grid-row: 14/15 ;
+    background-color: red;
+}
+.blok26{
+    grid-column: 12/13;
+    grid-row: 11/12 ;
+    background-color: red;
+}
+.blok27{
+    grid-column: 13/14;
+    grid-row: 11/12 ;
+    background-color: red;
+}
+.blok28{
+    grid-column: 14/15;
+    grid-row: 11/12 ;
+    background-color: red;
+}
+.blok29{
+    grid-column: 15/16;
+    grid-row: 11/12 ;
+    background-color: red;
+}
+.blok30{
+    grid-column: 16/17;
+    grid-row: 11/12 ;
+    background-color: red;
+}
+.blok32{
+    grid-column: 14/15;
+    grid-row: 12/13 ;
+    background-color: red;
+}
+.blok33{
+    grid-column: 14/15;
+    grid-row: 13/14 ;
+    background-color: red;
+}
+.blok34{
+    grid-column: 14/15;
+    grid-row: 14/15;
+    background-color: red;
+}
+.blok35{
+    grid-column: 14/15;
+    grid-row: 15/16 ;
+    background-color: red;
+}
+.blok36{
+    grid-column: 14/15;
+    grid-row: 16/17 ;
+    background-color: red;
+}
+.blok37{
+    grid-column: 11/12;
+    grid-row: 16/17 ;
+    background-color: red;
+}
+.blok38{
+    grid-column: 13/14;
+    grid-row: 17/18 ;
+    background-color: red;
+}
+.blok39{
+    grid-column: 12/13;
+    grid-row: 17/18 ;
+    background-color: red;
+}
+.blok40{
+    grid-column: 20/21;
+    grid-row: 11/12 ;
+    background-color: red;
+}
+.blok42{
+    grid-column: 20/21;
+    grid-row: 12/13 ;
+    background-color: red;
+}
+.blok43{
+    grid-column: 20/21;
+    grid-row: 13/14 ;
+    background-color: red;
+}
+.blok44{
+    grid-column: 20/21;
+    grid-row: 14/15 ;
+    background-color: red;
+}
+.blok45{
+    grid-column: 20/21;
+    grid-row: 15/16 ;
+    background-color: red;
+}
+.blok46{
+    grid-column: 20/21;
+    grid-row: 16/17 ;
+    background-color: red;
+}
+.blok41{
+    grid-column: 20/21;
+    grid-row: 17/18 ;
+    background-color: red;
+}
+.blok47{
+    grid-column: 21/22;
+    grid-row: 14/15 ;
+    background-color: red;
+}
+.blok48{
+    grid-column: 22/23;
+    grid-row: 13/14 ;
+    background-color: red;
+}
+.blok49{
+    grid-column: 23/24;
+    grid-row: 12/13 ;
+    background-color: red;
+}
+.blok50{
+    grid-column: 22/23;
+    grid-row: 15/16 ;
+    background-color: red;
+}
+.blok51{
+    grid-column: 23/24;
+    grid-row: 16/17 ;
+    background-color: red;
+}
+.blok52{
+    grid-column: 24/25;
+    grid-row: 11/12 ;
+    background-color: red;
+}
+.blok53{
+    grid-column: 24/25;
+    grid-row: 17/18 ;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
